@@ -1,9 +1,9 @@
 const Footer = () => {
-    return (
+  return (
       <footer>
-        Copyright 2021
+          Copyright 2022 Name List
       </footer>
-    );
-  }
-   
-  export default Footer;
+  );
+}
+
+export default Footer;
