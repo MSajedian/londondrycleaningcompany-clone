@@ -26,7 +26,7 @@ const MainNavbar = () => {
                 </Container>
             </Navbar> */}
 
-            <Navbar expand="lg">
+            <Navbar className="sticky-top bg-white border border-primary border-2 border-top-0 border-start-0 border-end-0" expand="lg">
                 <Container fluid>
                     <Navbar.Brand href="#home">
                     <Image
