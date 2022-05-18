@@ -30,5 +30,39 @@
     text-align: center;
   }
 
-  /* ************************** */
+/* ************ GoogleReviews ************** */
+
+.google-rating{
+  color: #e7711b;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 6px 0 0;
+  vertical-align: middle;
+  font-weight: 700;
+
+}
+
+.google-powered{
+  color: #777;
+  margin: 0px 0 0;
   
+}
+
+.company-link-in-google-map{
+  text-decoration: none;
+  font-size: medium;
+  font-weight: 500;
+  color: black;
+  cursor: pointer;
+}
+.google-time {
+  color: #999;
+  font-size: 13px;
+}
+.google-name {
+  font-weight: 500;
+  color: #427fed;
+  text-decoration: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

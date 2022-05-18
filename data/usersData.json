@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Yasamin Sanjabi",
+    "image": "https://lh3.googleusercontent.com/a/AATXAJw_7lNuZRnQKmgGtk45QKnP38hIoptWQP8ypm3F=s56-c0x00000000-cc-rp-mo",
+    "link": "https://www.google.com/maps/contrib/108989626039259815732/reviews",
+    "time": "7 months ago",
+    "review": "the best dry cleaning I suggest it"
+  },
+  {
+    "id": 2,
+    "name": "Tanya Dravid",
+    "image": "https://lh3.googleusercontent.com/a/AATXAJyOUMNJY6TK0L__P2tUnwcdALLuZ0xiFn3pK-np=s56-c0x00000000-cc-rp-mo",
+    "link": "https://www.google.com/maps/contrib/115978076370306840483/reviews",
+    "time": "9 months ago",
+    "review": "Best Drycleaning service same day service with no extra charge . We have been using this dry cleaner for a all year since we moved in the area. My husband for his suits , as well as my nice dresses and cashmere knitwear. I receive great service everytime, reasonable prices Staff is so polite specially Adam"
+  },
+  {
+    "id": 3,
+    "name": "Samrat Roy",
+    "image": "https://lh3.googleusercontent.com/a/AATXAJzRSwKCL5_95dCjNnw3G7Cl_X9uL1DM4IAXyWNO=s56-c0x00000000-cc-rp-mo",
+    "link": "https://www.google.com/maps/contrib/115937163244238883906/reviews",
+    "time": "a year ago",
+    "review": "Honest, reliable, follows directions, am a regular customer"
+  },
+  {
+    "id": 4,
+    "name": "Pinar Uzun",
+    "image": "https://lh3.googleusercontent.com/a/AATXAJxD69MoCDO1gyckGeUtZA7vjvGDOZ_LguDUhgod=s56-c0x00000000-cc-rp-mo",
+    "link": "https://www.google.com/maps/contrib/107522634884588441180/reviews",
+    "time": "a year ago",
+    "review": "Excellent assistance from staff, machines easy to use, we only needed to dry our clothes and were ready in 30 minutes."
+  },
+  {
+    "id": 5,
+    "name": "Ladislav Hornan",
+    "image": "https://lh3.googleusercontent.com/a/AATXAJxB68Zf51ERaNWDlTmzL-Y0nZFN7cV81RJLCF25=s56-c0x00000000-cc-rp-mo",
+    "link": "https://www.google.com/maps/contrib/105792209116072459172/reviews",
+    "time": "a year ago",
+    "review": "I have only good experience with this company over a period of several years. the Owner manager is polite and diligent in providing an excellent service."
+  }
+]

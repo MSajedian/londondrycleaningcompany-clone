@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "postTitle": "water consumption for laundry washing – how can we save water?",
+    "imageName": "water consumption in laundry",
+    "imageSrc": "https://londondrycleaningcompany.com/wp-content/uploads/2020/12/water-consumption-370x320.jpg",
+    "postTime": "December 26, 2020",
+    "postTimeLink": "https://londondrycleaningcompany.com/2020/12/26/",
+    "postLink": "https://londondrycleaningcompany.com/water-consumption-in-laundry/"
+  },
+  {
+    "id": 2,
+    "postTitle": "How to clean a leather jacket",
+    "imageName": "leather jacket cleaning",
+    "imageSrc": "https://londondrycleaningcompany.com/wp-content/uploads/2020/12/leather-jachet-cleaning-370x320.jpg",
+    "postTime": " December 21, 2020",
+    "postTimeLink": "https://londondrycleaningcompany.com/2020/12/21/",
+    "postLink": "https://londondrycleaningcompany.com/leather-jacket-cleaning/"
+  },
+  {
+    "id": 3,
+    "postTitle": "Does dry cleaning remove body odor?",
+    "imageName": "does dry cleaning remove body odor",
+    "imageSrc": "https://londondrycleaningcompany.com/wp-content/uploads/2020/12/body-odor-370x320.jpg",
+    "postTime": "December 15, 2020",
+    "postTimeLink": "https://londondrycleaningcompany.com/2020/12/15/",
+    "postLink": "https://londondrycleaningcompany.com/does-dry-cleaning-remove-body-odor/"
+  }
+]

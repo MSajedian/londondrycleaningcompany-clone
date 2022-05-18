@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { FaBook } from 'react-icons/fa';
 import SwiperComponenet from '../components/SwiperComponenet';
 import GoogleReviews from '../components/GoogleReviews';
+import Resources from '../components/Resources';
 
 export default function Home() {
   const [index, setIndex] = useState(0);
@@ -396,7 +397,13 @@ export default function Home() {
         style={{ backgroundColor: "#f6f6f5" }}
       ><SwiperComponenet />
       </div>
+
+      {/********* GOOGLE REVIEW *********/}
       <GoogleReviews />
+
+      {/********* Resources *********/}
+      <Resources />
+      
     </>
   )
 }
