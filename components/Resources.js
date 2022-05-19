@@ -10,11 +10,11 @@ export default function Resources() {
     return (
         <>
             <Container className="mt-5">
-                <h2 className="text-center my-5">Check out some of our amazing resources or join us to our newsletter</h2>
+                <h2 className="text-center my-5">Check out some of our <br /> amazing resources or join us to our newsletter</h2>
                 <Row xs={1} md={2} lg={3} className="g-4">
                     {ResourcesData.map((resource, idx) => (
                         <Col key={`resources-card-${idx}`}>
-                            <Card>
+                            <Card className="shadow border-0">
                                 {/* <Card.Img
                                     // variant="top"
                                     // src={resource.imageSrc}
@@ -24,12 +24,13 @@ export default function Resources() {
                                 // className="attachment-saasland_370x320 size-saasland_370x320 wp-post-image" 
                                 // loading="lazy" 
                                 /> */}
-                                <Image
+                                <Card.Img
                                     variant="top"
                                     src={resource.imageSrc}
                                     alt={resource.imageName}
                                     width="370"
                                     height="320"
+                                    className=""
                                 // className="attachment-saasland_370x320 size-saasland_370x320 wp-post-image" 
                                 // loading="lazy" 
                                 />
@@ -37,10 +38,8 @@ export default function Resources() {
                                     <Row>
                                         <Col>
                                             <Link href={resource.postTimeLink} >
-                                                <a className="post_time" >
-                                                    <i className="icon_clock_alt"></i>
-                                                    <FaRegClock /> {resource.postTime}
-                                                    
+                                                <a className="post_time d-flex align-items-center">
+                                                    <FaRegClock color="#5f54fd" />&nbsp;{resource.postTime}
                                                 </a>
                                             </Link>
                                         </Col>
@@ -49,22 +48,21 @@ export default function Resources() {
                                         <Col>
                                             <Link href={resource.postLink} >
                                                 <a className="post_title" >
-                                                    <h3>{resource.postTitle}</h3>
+                                                    <p className="post_title_text">{resource.postTitle}</p>
                                                 </a></Link>
                                         </Col>
                                     </Row>
-                                    <Row className="post-info-bottom">
-                                        <Col className="post-info-read-more d-flex justify-content-start">
+                                    <Row className="">
+                                        <Col className="d-flex justify-content-start">
                                             <Link href={resource.postLink} >
                                                 <a className="learn_btn_two" >
-                                                    Read More  <CgArrowRight />
+                                                    READ MORE  <CgArrowRight />
                                                 </a></Link>
                                         </Col>
                                         <Col>
                                             <Link href={resource.postLink} >
                                                 <a className="post-info-comments d-flex justify-content-end align-items-center" >
-                                                    {/* <i className="icon_comment_alt" aria-hidden="true"></i> */}
-                                                    <FaRegComment />&nbsp;<span>No Comments</span>
+                                                    <FaRegComment color="#5f54fd" />&nbsp;<span>No Comments</span>
                                                 </a></Link>
                                         </Col>
                                     </Row>
