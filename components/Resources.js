@@ -14,7 +14,7 @@ export default function Resources() {
                 <Row xs={1} md={2} lg={3} className="g-4">
                     {ResourcesData.map((resource, idx) => (
                         <Col key={`resources-card-${idx}`}>
-                            <Card className="shadow border-0">
+                            <Card className="shadow border-0 my-5">
                                 {/* <Card.Img
                                     // variant="top"
                                     // src={resource.imageSrc}
