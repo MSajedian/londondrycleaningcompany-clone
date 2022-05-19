@@ -8,7 +8,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 // import 'swiper/css/scrollbar';
 
-export default function SwiperComponenet() {
+export default function Feedback() {
     return (
         <>
             <Swiper
@@ -21,7 +21,7 @@ export default function SwiperComponenet() {
                 slidesPerView={2}
                 // slidesPerView={"auto"}
                 pagination={{ dynamicBullets: true, clickable: true }}
-                className="my-swiper"
+                className="my-swiper-feedback"
 
                 effect={"coverflow"}
                 centeredSlides={true}
@@ -37,7 +37,7 @@ export default function SwiperComponenet() {
             // onSwiper={(swiper) => console.log(swiper)}
             // onSlideChange={() => console.log('slide change')}
             >
-                <SwiperSlide className="my-swiper-slide shadow-lg bg-body text-center bg-white p-5" style={{ borderRadius: "10px" }}>
+                <SwiperSlide className="my-swiper-slide-feedback shadow-lg bg-body text-center bg-white p-5" style={{ borderRadius: "10px" }}>
                     <div className="icon">
                         <Image src="/Green-log.png" alt="Green-log" className="" width="10px" height="10px" layout="responsive" objectFit="cover" />
                     </div>

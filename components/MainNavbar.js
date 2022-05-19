@@ -6,14 +6,14 @@ import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
 const MainNavbar = () => {
     return (
         <>
-            <Navbar className="my-navbar sticky-top bg-white" expand="lg">
-                <Container fluid>
+            <Navbar className="my-navbar sticky-top bg-white d-flex align-items-center position-absolute w-100" expand="lg">
+                <Container >
                     <Navbar.Brand href="#home">
                         <Image
                             src={TheLondonDryCleaningCompanyLogo}
                             alt="The-London-Dry-Cleaning-Company-Logo"
                             width={200}
-                            height={93.997}
+                            height={94}
                             // layout="responsive"
                         // blurDataURL="data:..." automatically provided
                         // placeholder="blur" // Optional blur-up while loading

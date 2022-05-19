@@ -3,7 +3,8 @@ import { useState } from 'react'
 import { Tab, Container, Carousel, Row, Col, Card, Nav, Badge, Button } from 'react-bootstrap';
 import Image from 'next/image'
 import { FaBook } from 'react-icons/fa';
-import SwiperComponenet from '../components/SwiperComponenet';
+import MainCarousel from '../components/MainCarousel';
+import Feedback from '../components/Feedback';
 import GoogleReviews from '../components/GoogleReviews';
 import Resources from '../components/Resources';
 
@@ -20,30 +21,18 @@ export default function Home() {
       </Head>
 
       {/********* Carousel *********/}
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+      <MainCarousel />
+      {/* <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item interval={10000}>
-          {/* <img
-            className="d-block w-100"
-            src="https://londondrycleaningcompany.com/wp-content/uploads/2019/11/Slide001-min.jpg"
-            alt="First slide"
-          /> */}
           <Image
             src="/Slide001.jpg"
             alt="First slide"
             width={1920}
             height={1080}
             layout="responsive"
-            // objectFit="contain"
             objectFit="cover"
-          // layout="fill"
-          // height={500}
-          // layout="fill"
-          // intrinsic="1x"
-          // blurDataURL="data:..." automatically provided
-          // placeholder="blur" // Optional blur-up while loading
           />
           <Carousel.Caption>
-            {/* First slide label */}
             DRY CLEANING & LAUNDRY DELIVERY SERVICE
 
             We Collect, Clean and Deliver
@@ -58,12 +47,10 @@ export default function Home() {
             width={1920}
             height={1080}
             layout="responsive"
-            // objectFit="contain"
             objectFit="cover"
           />
 
           <Carousel.Caption>
-            {/* Second slide label */}
             DRY CLEANING & LAUNDRY TO YOUR DOOR
 
             We collect, clean & deliver your items in as little as 48 hours
@@ -71,7 +58,7 @@ export default function Home() {
             Contact us
           </Carousel.Caption>
         </Carousel.Item>
-      </Carousel>
+      </Carousel> */}
 
       {/********* SPECIALIST DRY CLEANING SERVICES *********/}
       <Container>
@@ -395,7 +382,7 @@ export default function Home() {
 
       <div
         style={{ backgroundColor: "#f6f6f5" }}
-      ><SwiperComponenet />
+      ><Feedback />
       </div>
 
       {/********* GOOGLE REVIEW *********/}
