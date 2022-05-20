@@ -1,12 +1,13 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from 'next/image'
+import { FaAngleDoubleRight } from 'react-icons/fa';
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/navigation";
+// import "swiper/css/navigation";
 
 // import required modules
-import { Autoplay, Navigation } from "swiper";
+import { Autoplay } from "swiper";
 
 export default function MainCarousel() {
     return (
@@ -19,8 +20,8 @@ export default function MainCarousel() {
                 //     delay: 2500,
                 //     disableOnInteraction: false
                 // }}
-                navigation={true}
-                modules={[Autoplay, Navigation]}
+                // navigation={true}
+                modules={[Autoplay]}
                 className="my-swiper-main-carousel"
             >
                 <SwiperSlide className="my-swiper-slide-main-carousel">
@@ -33,19 +34,18 @@ export default function MainCarousel() {
                         objectFit="cover"
                         className="my-swiper-slide-main-carousel-img"
                     />
-                    <div className="my-swiper-slide-main-carousel-text">
-                        <div className="bdt-slideshow-content-wrapper bdt-position-z-index bdt-position-center bdt-position-large bdt-text-center">
-                            <div><h1 className="bdt-slideshow-title bdt-display-inline-block">DRY CLEANING &amp; LAUNDRY TO YOUR DOOR</h1></div>
-                            <div className="bdt-slideshow-text"><br />
-                                We collect, clean &amp; deliver your items in as little as 48 hours<br />
-                                    20% discount to all new customers use promo code 20off
+                    <div className="my-swiper-slide-main-carousel-caption">
+                        <div className="slideshow-content-wrapper">
+                            <div><h1 className="slideshow-title">DRY CLEANING & LAUNDRY DELIVERY SERVICE</h1></div>
+                            <div className="slideshow-text"><br />
+                                We Collect, Clean and Deliver <br />
+                                Directly to your Door
                             </div>
-                            <div><a href="/contact-us/" target="_self" className="bdt-slideshow-button bdt-display-inline-block elementor-animation-grow" rel="noreferrer">Contact us
-                                <span className="bdt-button-icon-align-right bdt-slideshow-button-icon-right">
-
-                                    <i aria-hidden="true" className="fa-fw fas fa-angle-double-right"></i>
-                                </span>
-                            </a></div>
+                            <div className="">
+                                <a href="/contact-us/" target="_self" className="slideshow-button" rel="noreferrer">Contact us
+                                    <FaAngleDoubleRight />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>

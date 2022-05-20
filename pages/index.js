@@ -22,44 +22,6 @@ export default function Home() {
 
       {/********* Carousel *********/}
       <MainCarousel />
-      {/* <Carousel activeIndex={index} onSelect={handleSelect}>
-        <Carousel.Item interval={10000}>
-          <Image
-            src="/Slide001.jpg"
-            alt="First slide"
-            width={1920}
-            height={1080}
-            layout="responsive"
-            objectFit="cover"
-          />
-          <Carousel.Caption>
-            DRY CLEANING & LAUNDRY DELIVERY SERVICE
-
-            We Collect, Clean and Deliver
-            Directly to your Door
-            Contact us
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={10000}>
-          <Image
-            src="/Slide002.jpg"
-            alt="Second slide"
-            width={1920}
-            height={1080}
-            layout="responsive"
-            objectFit="cover"
-          />
-
-          <Carousel.Caption>
-            DRY CLEANING & LAUNDRY TO YOUR DOOR
-
-            We collect, clean & deliver your items in as little as 48 hours
-            20% discount to all new customers use promo code 20off
-            Contact us
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel> */}
-
       {/********* SPECIALIST DRY CLEANING SERVICES *********/}
       <Container>
         <h2 className="text-center my-5">SPECIALIST DRY CLEANING SERVICES</h2>
