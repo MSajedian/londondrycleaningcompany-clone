@@ -59,7 +59,7 @@ export default function Footer() {
                 </div>
               </div>
               <div
-                className="elementor-element elementor-element-a8c1462 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                className="overflow-auto elementor-element elementor-element-a8c1462 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
                 data-id="a8c1462"
                 data-element_type="widget"
                 data-widget_type="icon-list.default"

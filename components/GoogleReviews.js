@@ -12,9 +12,8 @@ export default function GoogleReviews() {
 
             <Container className="mt-5">
                 <Row>
-                    <Col xs={12} sm={2} className="d-flex justify-content-end">
+                    <Col xs={12} sm={2} className="d-flex justify-content-center">
                         <div
-                            title="London Dry Cleaning Company Background"
                             className="d-flex justify-content-center align-items-center shadow"
                             style={{
                                 width: "70px",
@@ -32,7 +31,6 @@ export default function GoogleReviews() {
                                 alt="London Dry Cleaning Company"
                                 width="70px"
                                 height="70px"
-                                title="London Dry Cleaning Company"
                                 className=""
                             />
                         </div>

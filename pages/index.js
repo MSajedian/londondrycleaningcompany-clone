@@ -22,13 +22,14 @@ export default function Home() {
 
       {/********* Carousel *********/}
       <MainCarousel />
+
       {/********* SPECIALIST DRY CLEANING SERVICES *********/}
       <Container>
         <h2 className="text-center my-5">SPECIALIST DRY CLEANING SERVICES</h2>
         <Row xs={1} sm={2} lg={3} className="g-4">
           <Col>
             <Card>
-              <Card.Img variant="top" className="px-5 pt-5" src="/service_home2-min.png" alt="Laundry" />
+              <Card.Img variant="top" className="px-5 pt-5 img-fluid" src="/service_home2-min.png" alt="Laundry" />
               <Card.Body>
                 <Card.Title className="text-center">Laundry</Card.Title>
                 <Card.Text className="text-center">
