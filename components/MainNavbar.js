@@ -27,7 +27,7 @@ const MainNavbar = () => {
                             <Nav.Link className="nav-link" href="/about">ABOUT</Nav.Link>
                             {/* <Nav.Link className="nav-link" href="/">ELITE SERVICES</Nav.Link> */}
                             <div className="nav-link-dropdown">
-                                <a className="nav-link-btn">ELITE SERVICES</a>
+                                <a className="nav-link nav-link-btn">ELITE SERVICES</a>
                                 <span className='d-lg-none nav-link-btn'>{">"}</span>
                                 <div className="nav-link-dropdown-content">
                                     <Link href="/"><a>Dry Cleaning</a></Link>
