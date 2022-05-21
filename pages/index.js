@@ -20,7 +20,7 @@ export default function Home() {
         <meta name="keywords" content="websiteName" />
       </Head>
 
-      {/********* Carousel *********/}
+      {/********* MainCarousel *********/}
       <MainCarousel />
 
       {/********* SPECIALIST DRY CLEANING SERVICES *********/}
@@ -28,8 +28,8 @@ export default function Home() {
         <h2 className="text-center my-5">SPECIALIST DRY CLEANING SERVICES</h2>
         <Row xs={1} sm={2} lg={3} className="g-4">
           <Col>
-            <Card>
-              <Card.Img variant="top" className="px-5 pt-5 img-fluid" src="/service_home2-min.png" alt="Laundry" />
+            <Card className="services-card">
+              <Card.Img variant="top" className="services-card-img" src="/service_home2-min.png" alt="Laundry" />
               <Card.Body>
                 <Card.Title className="text-center">Laundry</Card.Title>
                 <Card.Text className="text-center">
@@ -39,8 +39,8 @@ export default function Home() {
             </Card>
           </Col>
           <Col>
-            <Card>
-              <Card.Img variant="top" className="px-5 pt-5" src="/service_home3-min.png" alt="Alterations" />
+            <Card className="services-card">
+              <Card.Img variant="top" className="services-card-img" src="/service_home3-min.png" alt="Alterations" />
               <Card.Body>
                 <Card.Title className="text-center">Alterations</Card.Title>
                 <Card.Text className="text-center">
@@ -50,9 +50,10 @@ export default function Home() {
             </Card>
           </Col>
           <Col>
-            <Card>
-              <Card.Img variant="top" className="px-5 pt-5" src="shoes-min.png" alt="Shoe Repair" />
+            <Card className="services-card">
+              <Card.Img variant="top" className="services-card-img" src="shoes-min.png" alt="Shoe Repair" />
               <Card.Body>
+                <Card.Title className="text-center">Shoe repair</Card.Title>
                 <Card.Text className="text-center">
                   We correct rips, damaged corking and repair cracked heels. In addition our cobblers offer waterproofing...
                 </Card.Text>
@@ -60,8 +61,8 @@ export default function Home() {
             </Card>
           </Col>
           <Col>
-            <Card>
-              <Card.Img variant="top" className="px-5 pt-5" src="/wedding_grow-min.png" alt="Wedding Gowns" />
+            <Card className="services-card">
+              <Card.Img variant="top" className="services-card-img" src="/wedding_grow-min.png" alt="Wedding Gowns" />
               <Card.Body>
                 <Card.Title className="text-center">Wedding Gowns</Card.Title>
                 <Card.Text className="text-center">
@@ -71,8 +72,8 @@ export default function Home() {
             </Card>
           </Col>
           <Col>
-            <Card>
-              <Card.Img variant="top" className="px-5 pt-5" src="/everyting-min.png" alt="Suede, Leather & Furs" />
+            <Card className="services-card">
+              <Card.Img variant="top" className="services-card-img" src="/everyting-min.png" alt="Suede, Leather & Furs" />
               <Card.Body>
                 <Card.Title className="text-center">Suede, Leather & Furs</Card.Title>
                 <Card.Text className="text-center">
@@ -349,7 +350,7 @@ export default function Home() {
 
       {/********* Resources *********/}
       <Resources />
-      
+
     </>
   )
 }
