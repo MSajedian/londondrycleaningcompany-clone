@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import TheLondonDryCleaningCompanyLogo from '../public/The-London-Dry-Cleaning-Company-Logo.png'
 import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 const MainNavbar = () => {
@@ -8,9 +7,9 @@ const MainNavbar = () => {
         <>
             <Navbar className="my-navbar sticky-top bg-white d-flex align-items-center" expand="lg">
                 <Container fluid>
-                    <Navbar.Brand href="/" className="ms-4 visually-hidden">
+                    <Navbar.Brand href="/" className="ms-4">
                         <Image
-                            src={TheLondonDryCleaningCompanyLogo}
+                            src="/The-London-Dry-Cleaning-Company-Logo.png"
                             alt="The-London-Dry-Cleaning-Company-Logo"
                             width={200}
                             height={94}
@@ -29,6 +28,7 @@ const MainNavbar = () => {
                             {/* <Nav.Link className="nav-link" href="/">ELITE SERVICES</Nav.Link> */}
                             <div className="nav-link-dropdown">
                                 <a className="nav-link-btn">ELITE SERVICES</a>
+                                <span className='d-lg-none nav-link-btn'>{">"}</span>
                                 <div className="nav-link-dropdown-content">
                                     <Link href="/"><a>Dry Cleaning</a></Link>
                                     <Link href="/"><a>Laundry</a></Link>

@@ -191,7 +191,6 @@ export default function Home() {
                   layout="responsive"
                 />
                 Choose Any Time For Delivery
-                Choose Any Time For Delivery
               </Col>
               <Col >
                 <Badge pill bg="primary">02</Badge>
@@ -201,7 +200,6 @@ export default function Home() {
                   height={64}
                   layout="responsive"
                 />
-                We Can Wash and Dry Dirty Laundry
                 We Can Wash and Dry Dirty Laundry
               </Col>
               <Col >
@@ -213,7 +211,6 @@ export default function Home() {
                   layout="responsive"
                 />
                 We Return Your Clean Laundry
-                We Return Your Clean Laundry
               </Col>
               <Col >
                 <Badge pill bg="primary">04</Badge>
@@ -223,7 +220,6 @@ export default function Home() {
                   height={64}
                   layout="responsive"
                 />
-                Relax and Enjoy Clean Clothes
                 Relax and Enjoy Clean Clothes
               </Col>
             </Row>

@@ -82,7 +82,9 @@ body {
 
 .my-swiper-main-carousel {
   /* width: 1084px; */
-  min-height: 100vh;
+  /* min-width: 100vw; */
+  height: 70vh;
+  min-height: 609px;
 }
 
 .my-swiper-main-carousel-slide-1 {
@@ -149,7 +151,6 @@ body {
   padding: 0 1rem;
 }
 
-
 .slideshow-text {
   /* font-size: 21px; */
   font-weight: 500;
@@ -190,7 +191,6 @@ body {
   color: #fff; */
 }
 
-
 /* .slideshow-content-wrapper {
   display: flex;
   flex-flow: column wrap;
@@ -216,12 +216,14 @@ body {
   padding-bottom: 50px;
 }
 
-.my-swiper-slide-feedback {
-  /* width: 300px; */
+.my-swiper-feedback-slide {
+  /* width: 60vw!important; */
   /* height: 300px; */
-  margin-top: 50px;
-  padding-top: 50px;
+  margin-top: 2rem;
+  padding-top: 2rem;
   padding-bottom: 50px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   margin-bottom: 50px;
   background-position: center;
   background-size: cover;

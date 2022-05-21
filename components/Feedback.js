@@ -37,7 +37,7 @@ export default function Feedback() {
             // onSwiper={(swiper) => console.log(swiper)}
             // onSlideChange={() => console.log('slide change')}
             >
-                <SwiperSlide className="my-swiper-slide-feedback shadow-lg bg-body text-center bg-white p-5" style={{ borderRadius: "10px" }}>
+                <SwiperSlide className="my-swiper-feedback-slide shadow-lg bg-body text-center bg-white" style={{ borderRadius: "10px" }}>
                     <div className="icon">
                         <Image src="/Green-log.png" alt="Green-log" className="" width="10px" height="10px" layout="responsive" objectFit="cover" />
                     </div>
@@ -47,10 +47,9 @@ export default function Feedback() {
                             <h2>JOHN HAIDARI</h2>
                         </div>
                     </div>
-
                 </SwiperSlide>
 
-                <SwiperSlide className="my-swiper-slide shadow-lg bg-body text-center bg-white p-5" style={{ borderRadius: "10px" }}>
+                <SwiperSlide className="my-swiper-feedback-slide shadow-lg bg-body text-center bg-white" style={{ borderRadius: "10px" }}>
                     <div className="icon">
                         <Image src="/Green-log.png" alt="Green-log" className="" width="10px" height="10px" layout="responsive" objectFit="cover" />
                     </div>
@@ -63,7 +62,7 @@ export default function Feedback() {
                 </SwiperSlide>
 
 
-                <SwiperSlide className="my-swiper-slide shadow-lg bg-body text-center bg-white p-5" style={{ borderRadius: "10px" }}>
+                <SwiperSlide className="my-swiper-feedback-slide shadow-lg bg-body text-center bg-white" style={{ borderRadius: "10px" }}>
                     <div className="icon">
                         <Image src="/Green-log.png" alt="Green-log" className="" width="10px" height="10px" layout="responsive" objectFit="cover" />
                     </div>
@@ -76,7 +75,7 @@ export default function Feedback() {
                     </div>
                 </SwiperSlide>
 
-                <SwiperSlide className="my-swiper-slide shadow-lg bg-body text-center bg-white p-5" style={{ borderRadius: "10px" }}>
+                <SwiperSlide className="my-swiper-feedback-slide shadow-lg bg-body text-center bg-white" style={{ borderRadius: "10px" }}>
                     <div className="icon">
                         <Image src="/Green-log.png" alt="Green-log" className="" width="10px" height="10px" layout="responsive" objectFit="cover" />
                     </div>
