@@ -4,10 +4,10 @@ import { FaAngleDoubleRight } from 'react-icons/fa';
 
 // Import Swiper styles
 import "swiper/css";
-// import "swiper/css/navigation";
+import "swiper/css/navigation";
 
 // import required modules
-import { Autoplay } from "swiper";
+import { Autoplay, Navigation } from "swiper";
 
 export default function MainCarousel() {
     return (
@@ -16,12 +16,13 @@ export default function MainCarousel() {
                 loop={true}
                 spaceBetween={30}
                 centeredSlides={true}
-                // autoplay={{
-                //     delay: 2500,
-                //     disableOnInteraction: false
-                // }}
-                // navigation={true}
-                modules={[Autoplay]}
+                autoplay={{
+                    delay: 5000,
+                    disableOnInteraction: false,
+                    pauseOnMouseEnter: true
+                }}
+                navigation={true}
+                modules={[Navigation, Autoplay]}
                 className="my-swiper-main-carousel"
             >
                 <SwiperSlide className="my-swiper-main-carousel-slide-1">
