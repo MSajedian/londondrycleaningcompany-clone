@@ -197,7 +197,7 @@ export default function Footer() {
             />
           </Col>
           <Col className="m-0 p-0 d-flex justify-content-end">
-            <Image fluid
+            <Image
               width="251" height="252"
               src="https://londondrycleaningcompany.com/wp-content/uploads/2019/07/leaf-right.png"
               className="attachment-full size-full" alt="" loading="lazy"
