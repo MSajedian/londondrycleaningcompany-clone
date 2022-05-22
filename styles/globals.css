@@ -207,10 +207,10 @@ body {
   align-items: center;
 } */
 
-/************* SERVICES ***************/
+/************* SPECIALIST DRY CLEANING SERVICES ***************/
 
 .services-card {
-  border:none;
+  border: none;
   box-sizing: border-box;
   border-radius: 6px;
   border-top: 6px solid transparent;
@@ -232,6 +232,24 @@ body {
   padding-right: 80px;
 }
 
+/* SERVICES YOU WILL LOVE  */
+
+.services-love-card-nav-link {
+  color: black !important;
+  background-color: transparent !important;
+  cursor: pointer;
+  /* padding: 0.1rem 1rem; */
+  /* color: #5f54fd; */
+}
+.services-love-card-nav-link.nav-link:hover{
+  color: #5f54fd !important;
+}
+
+.services-love-card-nav-link.nav-link.active {
+  color: #5f54fd !important;
+  border-radius: 0;
+  border-bottom: solid 1px #5f54fd;
+}
 /************* Feedback ***************/
 
 .my-swiper-feedback {
