@@ -80,6 +80,25 @@ body {
 
 /************* MainCarousel ***************/
 
+.swiper-button-prev {
+  color: rgba(102, 102, 102, 0.5) !important;
+  display: flex !important;
+}
+
+.swiper-button-next {
+  color: rgba(102, 102, 102, 0.5) !important;
+  display: flex !important;
+}
+
+@media (max-width: 992px) {
+  .swiper-button-prev {
+    display: none !important;
+  }
+  .swiper-button-next {
+    display: none !important;
+  }
+}
+
 .my-swiper-main-carousel {
   /* width: 1084px; */
   /* min-width: 100vw; */
@@ -152,7 +171,7 @@ body {
 }
 
 .slideshow-text {
-  /* font-size: 21px; */
+  font-size: 21px;
   font-weight: 500;
 }
 
@@ -241,7 +260,7 @@ body {
   /* padding: 0.1rem 1rem; */
   /* color: #5f54fd; */
 }
-.services-love-card-nav-link.nav-link:hover{
+.services-love-card-nav-link.nav-link:hover {
   color: #5f54fd !important;
 }
 
