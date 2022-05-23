@@ -26,7 +26,7 @@ export default function MainCarousel() {
                 className="my-swiper-main-carousel"
             >
                 <SwiperSlide className="my-swiper-main-carousel-slide-1">
-                    <h1 className="slideshow-title">DRY CLEANING & LAUNDRY DELIVERY SERVICE</h1>
+                    <h1 className="slideshow-title">DRY CLEANING & <br className="d-sm-none d-lg-flex"/>LAUNDRY DELIVERY SERVICE</h1>
                     <div className="slideshow-text"><br />
                         We Collect, Clean and Deliver <br />
                         Directly to your Door
@@ -36,7 +36,7 @@ export default function MainCarousel() {
                     </a>
                 </SwiperSlide>
                 <SwiperSlide className="my-swiper-main-carousel-slide-2">
-                    <h1 className="slideshow-title">DRY CLEANING & LAUNDRY TO YOUR DOOR</h1>
+                    <h1 className="slideshow-title">DRY CLEANING & <br className="d-sm-none d-lg-flex"/>LAUNDRY TO YOUR DOOR</h1>
                     <div className="slideshow-text">
                     We collect, clean & deliver your items in as little as 48 hours <br />
                     20% discount to all new customers use promo code 20off
