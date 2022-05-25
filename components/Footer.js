@@ -170,7 +170,7 @@ export default function Footer() {
                       <div className="bdt-newsletter-signup-wrapper bdt-width-auto">
                         <button
                           type="submit"
-                          className="bdt-newsletter-btn bdt-button bdt-button-primary bdt-width-1-1"
+                          className="bdt-signup bdt-newsletter-btn bdt-button bdt-button-primary bdt-width-1-1"
                         >
                           <div className="bdt-newsletter-btn-content-wrapper">
                             <div className="bdt-newsletter-btn-text bdt-display-inline-block">
