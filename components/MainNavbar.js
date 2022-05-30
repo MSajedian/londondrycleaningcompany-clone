@@ -1,6 +1,6 @@
-import Link from "next/link"
-import Image from "next/image"
-import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
+import Image from "next/image";
+import Link from "next/link";
+import { Container, Nav, Navbar } from "react-bootstrap";
 
 const MainNavbar = () => {
     return (

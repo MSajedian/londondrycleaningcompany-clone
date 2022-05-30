@@ -1,6 +1,5 @@
-
+import { useState } from 'react';
 import { Button, Collapse } from 'react-bootstrap';
-import { useState } from 'react'
 
 export default function ReadMoreTemplate() {
     const [open, setOpen] = useState(false);

@@ -1,16 +1,15 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Autoplay, Pagination, A11y } from 'swiper';
-import { Tab, Container, Carousel, Row, Col, Card, Nav, Badge, Button } from 'react-bootstrap';
-import Image from 'next/image'
-
+import Image from 'next/image';
+import { A11y, Autoplay, EffectCoverflow, Pagination } from 'swiper';
 import 'swiper/css';
 // import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { Swiper, SwiperSlide } from "swiper/react";
+
 // import 'swiper/css/scrollbar';
 
 export default function Feedback() {
     return (
-        <>
+        <div style={{ backgroundColor: "#f6f6f5" }}>
             <Swiper
                 // install Swiper modules
                 modules={[EffectCoverflow, Autoplay, Pagination, A11y]}
@@ -87,6 +86,6 @@ export default function Feedback() {
                     </div>
                 </SwiperSlide>
             </Swiper>
-        </>
+        </div>
     );
 }

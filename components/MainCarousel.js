@@ -1,13 +1,12 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import Image from 'next/image'
 import { FaAngleDoubleRight } from 'react-icons/fa';
-
+// import required modules
+import { Autoplay, Navigation } from "swiper";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
+import { Swiper, SwiperSlide } from "swiper/react";
 
-// import required modules
-import { Autoplay, Navigation } from "swiper";
+
 
 export default function MainCarousel() {
     return (

@@ -1,10 +1,8 @@
-import { Container, Row, Col, Card } from 'react-bootstrap';
 import Link from 'next/link';
-import Image from 'next/image';
-import ResourcesData from '../data/resourcesData.json';
-import { FaRegClock } from 'react-icons/fa';
-import { FaRegComment } from 'react-icons/fa';
+import { Card, Col, Container, Row } from 'react-bootstrap';
 import { CgArrowRight } from 'react-icons/cg';
+import { FaRegClock, FaRegComment } from 'react-icons/fa';
+import ResourcesData from '../data/resourcesData.json';
 
 export default function Resources() {
     return (

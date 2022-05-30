@@ -1,6 +1,6 @@
-import { Container, Row, Col, Card } from "react-bootstrap";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+import { Col, Container, Row } from "react-bootstrap";
 
 export default function Footer() {
   return (
